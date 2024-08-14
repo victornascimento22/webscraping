@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
 # Definir o caminho para o ChromeDriver
-selenium_service = Service('caminho-para/chromedriver')
+selenium_service = Service('')
 driver = webdriver.Chrome(service=selenium_service)
 
 # Definir a URL e o intervalo de atualização em segundos
